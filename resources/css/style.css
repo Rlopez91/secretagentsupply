@@ -119,3 +119,29 @@ nav ul{
 }
 
 /*Footer*/
+footer{
+  padding: 5rem 0px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  align-items: center;
+}
+
+/*responsive design tablet size*/
+@media only screen and (max-width: 1024px){
+  body{
+    font-size: 16px;
+  }
+
+  .item{
+    width: 47%;
+  }
+
+  .item.glasses{
+    display: none;
+  }
+
+  .boxes .box{
+    width: 35%;
+  }
+}
