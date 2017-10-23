@@ -101,3 +101,21 @@ nav ul{
 }
 
 /*Location and Schedule*/
+.boxes{
+  display: flex;
+  margin: 3rem auto 4rem auto;
+  justify-content: space-between;
+}
+
+.boxes .box{
+  width: 35%;
+}
+
+.box-title{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/*Footer*/
